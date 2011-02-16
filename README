@@ -1,0 +1,8 @@
+Easy FPO is  an ExpressionEngine 2 plugin that allows you to generate FPO template images on the fly.
+
+1.  Place the easy_fpo folder in your third_party directory.
+2.  In your template insert this tage {exp:easy_fpo class="foo" alt="bar"}300x250{/exp:easy_fpo}
+
+3.  If you run into any errors please make sure that the "images/temp/" directory exist and that it is writable.
+
+The example will create a dummy image 300x250 with an optional class "foo" and an optional alt tag of "bar". If you don't specify a class the default is "fpo" and the default for the alt is "FPO Image".
