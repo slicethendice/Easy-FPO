@@ -112,7 +112,7 @@ class Easy_fpo {
     ?>
     
     1. Place the easy_fpo folder in your third_party directory.
-    2. In your template insert this tage {exp:easy_fpo class="foo" alt="bar"}300x250{/exp:easy_fpo}
+    2. In your template insert this tag {exp:easy_fpo class="foo" alt="bar"}300x250{/exp:easy_fpo}
     
     The example will create a dummy image 300x250 with an optional class "foo" and an optional alt tag of "bar". If you don't specify a class the default is "fpo" and the default for the alt is "FPO Image".
     
